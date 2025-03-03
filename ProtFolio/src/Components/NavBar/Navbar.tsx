@@ -26,7 +26,7 @@ const Navbar = () => {
           {["Home", "Skills", "Experience", "Contact", "Hire Me"].map((item, index) => (
             <motion.li key={index} whileHover={{ scale: 1.1, y: -2 }}>
               <Link
-                to={`/${item.toLowerCase()}`}
+                to={`/`}
                 className="relative text-lg px-4 py-2 hover:text-lime-600 transition group"
               >
                 {item}
