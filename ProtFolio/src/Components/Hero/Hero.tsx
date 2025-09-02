@@ -3,7 +3,7 @@ import { motion } from "framer-motion";
 import { SiMongodb, SiExpress, SiReact, SiNodedotjs } from "react-icons/si";
 import Sr from "../../assets/Sr.png";
 const roles = ["Full Stack Developer", "MERN Stack Developer", "Web Enthusiast"];
-import cv from "../../assets/SreeshanthM Resume.pdf";
+
 const Hero = () => {
   const [text, setText] = useState("");
   const [index, setIndex] = useState(0);
@@ -74,7 +74,7 @@ const Hero = () => {
         {/* Buttons */}
         <div className="flex justify-center md:justify-start gap-4">
           <motion.a
-            href={cv}
+             href="/SreeshanthMResume.pdf"
             download
             className="px-6 py-3 bg-lime-600 text-white font-semibold rounded-lg shadow-md hover:bg-lime-700 transition"
             whileHover={{ scale: 1.1 }}
